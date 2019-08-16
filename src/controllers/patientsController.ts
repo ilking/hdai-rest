@@ -3,7 +3,7 @@ import { OK, BAD_REQUEST, NO_CONTENT } from 'http-status-codes';
 import { Request, Response } from 'express';
 import { Controller, Middleware, Get, Post, Put, Delete } from '@overnightjs/core';
 
-@Controller('')
+@Controller('api')
 export class PatientsController {
   private static readonly updateOptions: { [key: string]: any } = {
     new: true,
@@ -59,7 +59,7 @@ export class PatientsController {
     });
   }
 
-  @Post('patient:id/temperatureAndPulse')
+  @Post('patient/:id/temperatureAndPulse')
   private setTemperatureAndPulse(req: Request, res: Response): void {
     const updateParams: { [key: string]: string } = {};
     if (req.body.Temperature) {
