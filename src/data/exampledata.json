@@ -1,0 +1,51 @@
+{
+  "patients": [
+    {
+      "LastName": "Smith",
+      "FirstName": "Fred",
+      "Medications": [
+        {
+          "MedicationName": "morphine",
+          "Dose": "2mg",
+          "StartDate": "10/10/15"
+        },
+        {
+          "MedicationName": "acetaminophen",
+          "Dose": "325mg",
+          "StartDate": "10/11/15",
+          "StopDate": "10/14/15"
+        },
+        {
+          "MedicationName": "furosemide",
+          "Dose": "20mg",
+          "StartDate": "10/31/15"
+        }
+      ]
+    },
+    {
+      "LastName": "Jones",
+      "FirstName": "Sally",
+      "Medications": [
+        {
+          "MedicationID": 1,
+          "MedicationName": "morphine",
+          "Dose": "1mg",
+          "StartDate": "10/11/15"
+        },
+        {
+          "MedicationID": 2,
+          "MedicationName": "coumadin",
+          "Dose": "5mg",
+          "StartDate": "10/15/15"
+        },
+        {
+          "MedicationID": 3,
+          "MedicationName": "lovenox",
+          "Dose": "100mg/mL",
+          "StartDate": "10/31/15",
+          "StopDate": "11/2/15"
+        }
+      ]
+    }
+  ]
+}
